@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="10">
+ <tileset firstgid="1" name="GrassTileset" tilewidth="32" tileheight="32" tilecount="192">
+  <image source="GrassTileset.png" width="512" height="384"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJytlMENhDAMBAMd5DrAPUIHd3UfPCxZI29MEI/5GK/i7Jr01loXLIDf1gLql0L3SaBOzZnpq/meEOfK7rifHJhjVBt5fPE9+aFnVKN+AyrrSqf0qo/YhM6E93c0zD3zPtsR7+OZhn732QTs43nsrzJQ51B/N4cZshwqHzP/oi/Mw0It3kvlRk+YR/xnojcqtzd2OzLaV7XXM+/hU/y9qvbJqd5q5w9Xrilq
+  </data>
+ </layer>
+ <objectgroup name="collision">
+  <object id="1" x="128" y="128" width="64" height="64"/>
+  <object id="2" x="288" y="128" width="64" height="64"/>
+  <object id="3" x="448" y="128" width="64" height="64"/>
+  <object id="4" x="448" y="288" width="64" height="64"/>
+  <object id="5" x="448" y="448" width="64" height="64"/>
+  <object id="6" x="288" y="448" width="64" height="64"/>
+  <object id="7" x="128" y="448" width="64" height="64"/>
+  <object id="9" x="128" y="288" width="64" height="64"/>
+ </objectgroup>
+</map>
